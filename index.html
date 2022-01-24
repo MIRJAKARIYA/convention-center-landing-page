@@ -12,7 +12,7 @@
 <body>
     <!-------- header section starts here ------------->
     <header class="p-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary container">
+        <nav class="navbar navbar-expand-lg navbar-light container">
             <div class="container-fluid">
                 <h2 class="fw-bold">Jannat Convention Center</h3>
               <button class="navbar-toggler btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
                     <a class="nav-link active" href="#">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active">Subscribe</a>
+                    <a class="nav-link active" href="#">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -102,6 +102,33 @@
 
     <!-------------- main section starts here ----------------->
     <main class="my-5">
+      <!-- services that we povide -->
+      <section class="container" style="padding-top: 50px; padding-bottom: 100px;">
+        <div class="row g-5">
+          <div class="col-lg-8">
+              <div class="row gx-3">
+                <div class="col-sm-6">
+                  <div>
+                      <img src="images/gp1.jpg" class="rounded-3 img-fluid" alt="">
+                  </div>
+                  <div class="mt-3">
+                    <img src="images/gp2.jpg" class="rounded-3 img-fluid" alt="">
+                  </div>
+              </div>
+              <div class="col-sm-6 d-flex align-items-center">
+                  <img src="images/gp3.jpg" class="img-fluid h-75 rounded-3"  alt="">
+              </div>
+              </div>
+          </div>
+          <div class="col-lg-4 d-flex align-items-center">
+              <div class="text-center text-sm-start">
+                <h1>Personal care<br>& healthy living</h1>
+                <p>We provide best leading medicle service Nulla perferendis veniam deleniti ipsum officia dolores repellat laudantium obcaecati neque.</p>
+                <button class="btn btn-danger rounded-pill w-50">SERVICES</button>
+              </div>
+          </div>
+        </div>
+    </section>
       <!---------- packages ----------->
         <section class="container d-flex justify-content-center align-items-center border">
             <div class="row border border-primary p-3">
@@ -174,7 +201,58 @@
             </div>
         </section>
 
-        <!------------ register here ------------->
+        <!------------ Subscribe ------------->
+        <section class="container border border-danger mt-5">
+          <div class="row g-4">
+            <div class="col-lg-6 col-12 d-flex">
+                  <img src="images/extra/form-pic.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="text-center">
+                  <h1>Subscribe to our page</h1>
+                  <p>All your informations will remain confidential</p>
+                </div>
+                  <form class="row g-3">
+                      <div class="col-6">
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Primary Interest</option>
+                          <option value="1">Marriage Event</option>
+                          <option value="2">Birthday Event</option>
+                          <option value="3">Party Event</option>
+                          <option value="4">Official Event</option>
+                        </select>
+                      </div>
+                      <div class="col-6">
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Select Event type</option>
+                          <option value="1">Small</option>
+                          <option value="2">Medium</option>
+                          <option value="3">Large</option>
+                          <option value="4">Extra Large</option>
+                        </select>
+                      </div>
+                      <div class="col-6">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="dd/mm/yy">
+                      </div>
+                      <div class="col-6">
+                          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Time">
+                      </div>
+                      <div class="col-6">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+                      </div>
+                      <div class="col-6">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                      </div>
+                      <div class="col-12">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Your Message"></textarea>
+                      </div>
+                      <div>
+                          <button class="btn btn-info px-4 py-2 rounded-pill fw-bold text-white">SUBSCRIBE</button>
+                      </div>
+                  </form>
+            </div>
+        </div>
+        </section>
 
         <!-- frequently asked questions -->
         <section class="container">
