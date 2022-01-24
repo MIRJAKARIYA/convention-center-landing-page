@@ -1,13 +1,22 @@
+/* carousel styles */
 .custom_border_radius{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.carousel_background_image{
+    background-size: cover;
+    background-position: 55% 30%;
+    background-color: rgba(0, 0, 0, 0.26);
+    background-blend-mode: multiply;
+}
+/* hot offer styles */
 .border_radius{
     border-radius: 20px;
     background-color: rgb(12, 75, 54);
     box-shadow: 0 8px 20px 2px rgba(12, 75, 54, 0.466);
     color:wheat;
 }
+/* toast styles */
 .toast_fix{
     width: 220px;
     position: fixed;
@@ -27,21 +36,23 @@
 .font_fix{
     font-size: 10px;
 }
+/* footer right side */
 .custom_width{
     width: 200px;
 }
+/* media query for toast only */
 @media only screen and (min-width: 576px){
     .toast_fix{
-        left: 66%;
+        left: 60%;
     }
 }
 @media only screen and (min-width: 768px){
     .toast_fix{
-        left: 75%;
+        left: 70%;
     }
 }
 @media only screen and (min-width:992px){
     .toast_fix{
-        left: 87%;
+        left: 78%;
     }
 }
