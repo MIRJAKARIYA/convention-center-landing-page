@@ -3,3 +3,37 @@
     background-color: rgba(0, 0, 255, 0.705);
     box-shadow: 0 8px 20px 2px rgba(0, 0, 255, 0.37);
 }
+.toast_fix{
+    width: 220px;
+    position: fixed;
+    top: 84%;
+    z-index: 1;
+    left: 30%;
+}
+.toast_header_fix{
+    border-left: 8px solid;
+}
+.toast_button{
+    font-size: 8px;
+}
+.font_fix{
+    font-size: 10px;
+}
+.custom_width{
+    width: 200px;
+}
+@media only screen and (min-width: 576px){
+    .toast_fix{
+        left: 66%;
+    }
+}
+@media only screen and (min-width: 768px){
+    .toast_fix{
+        left: 75%;
+    }
+}
+@media only screen and (min-width:992px){
+    .toast_fix{
+        left: 87%;
+    }
+}
