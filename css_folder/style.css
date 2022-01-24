@@ -21,6 +21,9 @@
 .toast_button{
     font-size: 8px;
 }
+.custom_package_button{
+    background-color: #f496d269;
+}
 .font_fix{
     font-size: 10px;
 }
